@@ -6,10 +6,25 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<script>
 		$(document).ready(function(){
-		    $("a").hover(function(){
-		        $("body").css("background-image", 'url(./images/blod.jpg');
+		    $("#email").hover(function(){
+		        $("body").css("background-image", 'url(./images/email_bkg.png');
 		        }, function(){
-		        $("body").css("background-image", 'url(./images/swing.jpg');
+		        $("body").css("background-image", 'url(./images/default_bkg.png');
+		    });
+		    $("#phantomhack").hover(function(){
+		        $("body").css("background-image", 'url(./images/phantomhack_bkg.png');
+		        }, function(){
+		        $("body").css("background-image", 'url(./images/default_bkg.png');
+		    });
+		    $("#bunnyhop").hover(function(){
+		        $("body").css("background-image", 'url(./images/bunnyhop_bkg.png');
+		        }, function(){
+		        $("body").css("background-image", 'url(./images/default_bkg.png');
+		    });
+		    $("#shipwreck").hover(function(){
+		        $("body").css("background-image", 'url(./images/shipwreck_bkg.png');
+		        }, function(){
+		        $("body").css("background-image", 'url(./images/default_bkg.png');
 		    });
 		});
 		</script>
@@ -17,10 +32,10 @@
     <body>
         <nav>
             <ul>
-                <li><a href="mailto:phantom.dev.elb@gmail.com">Email</a></li>
-                <li><a href=#>Phantom Hack</a></li>
-                <li><a href=#>Bunnyhop</a></li>
-                <li><a href=#>Shipwreck (Working Title)</a></li>
+                <li><a id="email" href="mailto:phantom.dev.elb@gmail.com">Email</a></li>
+                <li><a id="phantomhack" href=#>Phantom Hack</a></li>
+                <li><a id="bunnyhop" href=#>Bunnyhop</a></li>
+                <li><a id="shipwreck" href=#>Shipwreck (Working Title)</a></li>
             </ul>
         </nav>
         
