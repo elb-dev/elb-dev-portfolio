@@ -10,7 +10,8 @@ html {
 }
 
 body {
-    background-color:#282828;
+    /*background-color:#282828;*/
+    background-image: url('./images/default_bkg.png');
     height: 100%;
     width: 100%;
     margin: 0;
@@ -38,6 +39,8 @@ nav a {
     background-color: #545454;
     display: block;
     padding: 10% 0 10% 0;
+    -webkit-transition: background-color, color;
+    transition: background-color 1s, color 1s;
 }
 
 nav a:hover {
