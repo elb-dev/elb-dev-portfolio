@@ -46,7 +46,6 @@ nav a {
 nav a:hover {
     color: white;
     background-color: #6d6d6d;
-    
 }
 
 nav ul {
@@ -72,9 +71,17 @@ h1 {
     text-align: center;
 }
 
-header {
-	order: 2;
+main {
+    order: 2;
 	flex-grow: 1;
 	justify-content: center;
 	align-self: center;
+}
+
+header {
+	order: 1;
+}
+
+section {
+    order: 2;
 }
